@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/SIS.dir/AcademicSessionReport.cpp.o CMakeFiles/SIS.dir/Class.cpp.o CMakeFiles/SIS.dir/Instructor.cpp.o CMakeFiles/SIS.dir/Person.cpp.o CMakeFiles/SIS.dir/Student.cpp.o CMakeFiles/SIS.dir/main.cpp.o -o SIS 

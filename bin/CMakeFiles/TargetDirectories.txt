@@ -1,0 +1,3 @@
+/home/diego/Projects/SIS/bin/CMakeFiles/rebuild_cache.dir
+/home/diego/Projects/SIS/bin/CMakeFiles/edit_cache.dir
+/home/diego/Projects/SIS/bin/CMakeFiles/SIS.dir
