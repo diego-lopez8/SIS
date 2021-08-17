@@ -13,11 +13,17 @@ public:
     Class(const std::string & departmentAbreviationIn, const std::string & collegeIn, 
          int catalogNumberIn, const std::string & courseTitleIn, int creditsIn, int maxClassSizeIn);
 
-    std::string addStudent(Student & aStudent);
+    bool addStudent(Student & aStudent);
+
+    bool validateAddStudent(const Student & aStudent)const;
+
+    std::string getCourseTitle()const;
 
     int getCredits()const;
 
     int getClassSize()const;
+
+    int getCatalogNumber()const;
 private:
     std::string departmentAbreviation;
     std::string college;
@@ -30,5 +36,7 @@ private:
 };
 
 std::ostream& operator<<(std::ostream& os, const Class & rhs);
+
+bool operator==(const Class & lhs, const Class & rhs);
 
 #endif

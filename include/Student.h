@@ -16,8 +16,13 @@ class Student : public Person {
 public:
     Student(const std::string & nameIn, int universityIDIn, const std::string & netIDIn, int gradeLevelIn);
 
-    std::string addClass(Class & aClass);
+    bool addClass(Class & aClass);
 
+    bool validateAddClass(const Class & aClass);
+
+    bool addAcademicSessionReport(const std::string & session);
+
+    ~Student();
 private:
     std::vector<AcademicSessionReport*> records;
     std::string degree;

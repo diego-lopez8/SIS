@@ -3,7 +3,7 @@
 
 CMakeFiles/SIS.dir/AcademicSessionReport.cpp.o: /home/diego/Projects/SIS/src/AcademicSessionReport.cpp \
   /usr/include/stdc-predef.h \
-  /home/diego/Projects/SIS/src/AcademicSessionReport.h \
+  /home/diego/Projects/SIS/include/AcademicSessionReport.h \
   /usr/include/c++/11.1.0/string \
   /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
   /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -156,11 +156,40 @@ CMakeFiles/SIS.dir/AcademicSessionReport.cpp.o: /home/diego/Projects/SIS/src/Aca
   /usr/include/c++/11.1.0/bits/stl_vector.h \
   /usr/include/c++/11.1.0/bits/stl_bvector.h \
   /usr/include/c++/11.1.0/bits/vector.tcc \
-  /home/diego/Projects/SIS/src/Class.h
+  /usr/include/c++/11.1.0/iostream \
+  /usr/include/c++/11.1.0/ostream \
+  /usr/include/c++/11.1.0/ios \
+  /usr/include/c++/11.1.0/exception \
+  /usr/include/c++/11.1.0/bits/exception_ptr.h \
+  /usr/include/c++/11.1.0/bits/cxxabi_init_exception.h \
+  /usr/include/c++/11.1.0/typeinfo \
+  /usr/include/c++/11.1.0/bits/nested_exception.h \
+  /usr/include/c++/11.1.0/bits/ios_base.h \
+  /usr/include/c++/11.1.0/bits/locale_classes.h \
+  /usr/include/c++/11.1.0/bits/locale_classes.tcc \
+  /usr/include/c++/11.1.0/system_error \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/11.1.0/stdexcept \
+  /usr/include/c++/11.1.0/streambuf \
+  /usr/include/c++/11.1.0/bits/streambuf.tcc \
+  /usr/include/c++/11.1.0/bits/basic_ios.h \
+  /usr/include/c++/11.1.0/bits/locale_facets.h \
+  /usr/include/c++/11.1.0/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/11.1.0/bits/streambuf_iterator.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/11.1.0/bits/locale_facets.tcc \
+  /usr/include/c++/11.1.0/bits/basic_ios.tcc \
+  /usr/include/c++/11.1.0/bits/ostream.tcc \
+  /usr/include/c++/11.1.0/istream \
+  /usr/include/c++/11.1.0/bits/istream.tcc \
+  /home/diego/Projects/SIS/include/Class.h
 
 CMakeFiles/SIS.dir/Class.cpp.o: /home/diego/Projects/SIS/src/Class.cpp \
   /usr/include/stdc-predef.h \
-  /home/diego/Projects/SIS/src/Class.h \
+  /home/diego/Projects/SIS/include/Class.h \
   /usr/include/c++/11.1.0/string \
   /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
   /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -345,7 +374,7 @@ CMakeFiles/SIS.dir/Class.cpp.o: /home/diego/Projects/SIS/src/Class.cpp \
 
 CMakeFiles/SIS.dir/Instructor.cpp.o: /home/diego/Projects/SIS/src/Instructor.cpp \
   /usr/include/stdc-predef.h \
-  /home/diego/Projects/SIS/src/Person.h \
+  /home/diego/Projects/SIS/include/Person.h \
   /usr/include/c++/11.1.0/string \
   /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
   /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -493,11 +522,12 @@ CMakeFiles/SIS.dir/Instructor.cpp.o: /home/diego/Projects/SIS/src/Instructor.cpp
   /usr/include/bits/types/error_t.h \
   /usr/include/c++/11.1.0/bits/charconv.h \
   /usr/include/c++/11.1.0/bits/basic_string.tcc \
-  /home/diego/Projects/SIS/src/Instructor.h
+  /home/diego/Projects/SIS/include/Instructor.h \
+  /home/diego/Projects/SIS/include/Person.h
 
 CMakeFiles/SIS.dir/Person.cpp.o: /home/diego/Projects/SIS/src/Person.cpp \
   /usr/include/stdc-predef.h \
-  /home/diego/Projects/SIS/src/Person.h \
+  /home/diego/Projects/SIS/include/Person.h \
   /usr/include/c++/11.1.0/string \
   /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
   /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -795,7 +825,7 @@ CMakeFiles/SIS.dir/Student.cpp.o: /home/diego/Projects/SIS/src/Student.cpp \
   /usr/include/bits/types/error_t.h \
   /usr/include/c++/11.1.0/bits/charconv.h \
   /usr/include/c++/11.1.0/bits/basic_string.tcc \
-  /home/diego/Projects/SIS/src/Student.h \
+  /home/diego/Projects/SIS/include/Student.h \
   /usr/include/c++/11.1.0/iostream \
   /usr/include/c++/11.1.0/ostream \
   /usr/include/c++/11.1.0/ios \
@@ -830,8 +860,9 @@ CMakeFiles/SIS.dir/Student.cpp.o: /home/diego/Projects/SIS/src/Student.cpp \
   /usr/include/c++/11.1.0/bits/stl_vector.h \
   /usr/include/c++/11.1.0/bits/stl_bvector.h \
   /usr/include/c++/11.1.0/bits/vector.tcc \
-  /home/diego/Projects/SIS/src/Person.h \
-  /home/diego/Projects/SIS/src/Class.h
+  /home/diego/Projects/SIS/include/Person.h \
+  /home/diego/Projects/SIS/include/Class.h \
+  /home/diego/Projects/SIS/include/AcademicSessionReport.h
 
 CMakeFiles/SIS.dir/main.cpp.o: /home/diego/Projects/SIS/src/main.cpp \
   /usr/include/stdc-predef.h \
@@ -1016,24 +1047,23 @@ CMakeFiles/SIS.dir/main.cpp.o: /home/diego/Projects/SIS/src/main.cpp \
   /usr/include/c++/11.1.0/bits/stl_vector.h \
   /usr/include/c++/11.1.0/bits/stl_bvector.h \
   /usr/include/c++/11.1.0/bits/vector.tcc \
-  /home/diego/Projects/SIS/src/Class.h \
-  /home/diego/Projects/SIS/src/Instructor.h \
-  /home/diego/Projects/SIS/src/Person.h \
-  /home/diego/Projects/SIS/src/AcademicSessionReport.h \
-  /home/diego/Projects/SIS/src/Student.h
+  /home/diego/Projects/SIS/include/Class.h \
+  /home/diego/Projects/SIS/include/Instructor.h \
+  /home/diego/Projects/SIS/include/Person.h \
+  /home/diego/Projects/SIS/include/AcademicSessionReport.h \
+  /home/diego/Projects/SIS/include/Person.h \
+  /home/diego/Projects/SIS/include/Student.h
 
-
-/home/diego/Projects/SIS/src/Student.h:
 
 /home/diego/Projects/SIS/src/Person.cpp:
 
-/home/diego/Projects/SIS/src/Person.h:
-
-/home/diego/Projects/SIS/src/Instructor.cpp:
+/home/diego/Projects/SIS/include/Class.h:
 
 /usr/include/c++/11.1.0/istream:
 
 /usr/include/c++/11.1.0/bits/locale_facets.tcc:
+
+/home/diego/Projects/SIS/include/Person.h:
 
 /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/ctype_inline.h:
 
@@ -1113,8 +1143,6 @@ CMakeFiles/SIS.dir/main.cpp.o: /home/diego/Projects/SIS/src/main.cpp \
 
 /home/diego/Projects/SIS/src/main.cpp:
 
-/home/diego/Projects/SIS/src/Class.h:
-
 /usr/include/bits/floatn.h:
 
 /usr/include/c++/11.1.0/bits/locale_classes.tcc:
@@ -1179,6 +1207,8 @@ CMakeFiles/SIS.dir/main.cpp.o: /home/diego/Projects/SIS/src/main.cpp \
 
 /usr/include/bits/types/FILE.h:
 
+/home/diego/Projects/SIS/include/Instructor.h:
+
 /usr/include/c++/11.1.0/cctype:
 
 /usr/include/c++/11.1.0/debug/debug.h:
@@ -1220,6 +1250,10 @@ CMakeFiles/SIS.dir/main.cpp.o: /home/diego/Projects/SIS/src/main.cpp \
 /usr/include/locale.h:
 
 /usr/include/c++/11.1.0/string:
+
+/home/diego/Projects/SIS/src/Instructor.cpp:
+
+/home/diego/Projects/SIS/include/AcademicSessionReport.h:
 
 /home/diego/Projects/SIS/src/AcademicSessionReport.cpp:
 
@@ -1268,8 +1302,6 @@ CMakeFiles/SIS.dir/main.cpp.o: /home/diego/Projects/SIS/src/main.cpp \
 /usr/include/asm/errno.h:
 
 /usr/include/c++/11.1.0/bits/stl_iterator_base_funcs.h:
-
-/home/diego/Projects/SIS/src/AcademicSessionReport.h:
 
 /usr/include/bits/types/__sigset_t.h:
 
@@ -1369,13 +1401,13 @@ CMakeFiles/SIS.dir/main.cpp.o: /home/diego/Projects/SIS/src/main.cpp \
 
 /usr/include/bits/time.h:
 
+/home/diego/Projects/SIS/include/Student.h:
+
 /usr/include/bits/types/struct_timeval.h:
 
 /usr/include/bits/types/__fpos_t.h:
 
 /usr/include/bits/types/clock_t.h:
-
-/home/diego/Projects/SIS/src/Instructor.h:
 
 /usr/include/bits/types/timer_t.h:
 
