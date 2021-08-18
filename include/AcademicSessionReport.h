@@ -24,7 +24,7 @@ public:
 
 private:
     // should hold everything albert can hold
-    std::vector<Class*> classes; // this cannot be the actual "Class" class because we need to delete this. It should be some inferior class. 
+    std::vector<const Class*> classes; // cannot delete the class
     int numCredits;
     int GPA;
     bool goodStanding;
