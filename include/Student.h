@@ -23,6 +23,7 @@ public:
     bool addAcademicSessionReport(const std::string & session);
 
     ~Student();
+    
 private:
     std::vector<AcademicSessionReport*> records;
     std::string degree;
