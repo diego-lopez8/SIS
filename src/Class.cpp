@@ -1,12 +1,13 @@
 #include "Class.h"
 #include <string>
 #include <iostream>
-
+#include "Instructor.h"
 using namespace std;
 
-Class::Class(const string & departmentAbreviationIn, const string & collegeIn,  int catalogNumberIn, const string & courseTitleIn, int creditsIn, int maxClassSizeIn)
+Class::Class(const string & departmentAbreviationIn, const string & collegeIn,  
+    int catalogNumberIn, const string & courseTitleIn, int creditsIn, int maxClassSizeIn, Instructor* classInstructorIn)
         : departmentAbreviation(departmentAbreviationIn), college(collegeIn),
-             courseTitle(courseTitleIn), catalogNumber(catalogNumberIn), credits(creditsIn), maxClassSize(maxClassSizeIn) {}
+             courseTitle(courseTitleIn), catalogNumber(catalogNumberIn), credits(creditsIn), maxClassSize(maxClassSizeIn), classInstructor(classInstructorIn) {}
 
 bool Class::validateAddStudent(const Student & aStudent) const{
     if (roster.size() < maxClassSize) {
@@ -49,6 +50,28 @@ int Class::getClassSize()const{
 int Class::getCatalogNumber()const {
     return catalogNumber;
 }
+
+bool Class::openInstructorSlot()const {
+    return (classInstructor == nullptr) ? false : true;
+} 
+
+bool Class::setInstructor(Instructor* aInstructor) {
+    if (classInstructor == aInstructor && classInstructor == nullptr) {
+        cout << "ERROR: cannot assign STAFF to override STAFF as instructor" << endl;
+        return false;
+    }
+    else if (classInstructor == aInstructor) {
+        cout << "ERROR: cannot assign that instructor because they are already assigned to this course" << endl;
+        return false;
+    }
+    else {
+        string classInstructorName = (classInstructor == nullptr) ? "STAFF" : classInstructor->getName();
+        classInstructor = aInstructor;
+        cout << "Success! " << aInstructor->getName() << " is now assigned to teach " << courseTitle << endl;
+        cout << classInstructorName << " is no longer assigned to teach " << courseTitle << endl;
+        return true;
+    }
+} 
 
 
 ostream& operator<<(ostream& os, const Class & rhs) {
