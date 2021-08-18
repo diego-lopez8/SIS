@@ -1,3 +1,11 @@
+/*
+Student.h
+Author: Diego Lopez
+last updated: 8/18/2021
+This file contains the headers for the Student class
+*/
+
+
 #ifndef STUDENT_H
 #define STUDENT_H
 
@@ -5,8 +13,6 @@
 #include <vector>
 #include <string>
 #include "Person.h"
-// #include "AcademicSessionReport.h"
-// #include "Class.h"
 
 class Class;
 class AcademicSessionReport;
